@@ -83,12 +83,12 @@ class Pipe
 
     public function patch() // overwrite value for key at ID according to payload
     {
-        // TODO: Implement update method
+        // TODO: Implement update/patch method
     }
 
     public function put() // overwrite resource at ID using payload, the tricky part here is that all keys not in payload will be emptied.
     {
-        // TODO: Implement update method
+        // TODO: Implement update/put method
     }
 
     public function delete() // delete resource at ID
