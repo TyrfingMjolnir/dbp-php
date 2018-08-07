@@ -23,7 +23,8 @@ namespace DB;
 
 const FMP = 'FileMakerPro';
 const FMS = 'FileMakerServer';
-const PGS = 'PostgreSQL';
+const PGS = 'pg'; // PostgreSQL
+const PGN = 'pgnative'; // PostgreSQL native libpq
 const MYS = 'MySQL';
 const ELK = 'elasticsearch';
 const RDS = 'REDIS';
