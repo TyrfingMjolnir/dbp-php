@@ -7,7 +7,7 @@
  */
 
 namespace DB;
-class Postgres extends DataSource
+class pg extends DataSource
 {
     public function execute()
     {
