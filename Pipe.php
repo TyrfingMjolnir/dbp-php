@@ -21,13 +21,13 @@
 
 namespace DB;
 
-const FMP = 'FileMakerPro';
-const FMS = 'FileMakerServer';
-const PGS = 'pg';        // PostgreSQL
-const PGN = 'pgnative'; // PostgreSQL native libpq
-const MYS = 'MySQL';
-const ELK = 'es';     // elasticsearch
-const RDS = 'redis';
+const FMP = 'FileMakerPro';     //
+const FMS = 'FileMakerServer'; //
+const PGS = 'pg';             // PostgreSQL
+const PGN = 'pgnative';      // PostgreSQL native libpq
+const MYS = 'MySQL';        // 
+const ELK = 'es';          // elasticsearch
+const RDS = 'redis';      // 
 
 
 class Pipe
@@ -65,11 +65,16 @@ class Pipe
 
     public function query($paramArray)
     {
+        // TODO: Implement validation of timestamp; and unset() when invalid to enforce renewal of login.
         // TODO: Implement query method
         // TODO: determine how to handle logical operators and multiple requests
     }
-    
+
     // CRUOUx implementation below; Create, Read, Update, Overwrite, Update mark for deletion.
+
+    private function currentToken(){
+        // TODO: Implement temporary storage for timestamp and current token
+    }
 
     public function read() // find resource at id or at random
     {
