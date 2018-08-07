@@ -23,11 +23,11 @@ namespace DB;
 
 const FMP = 'FileMakerPro';
 const FMS = 'FileMakerServer';
-const PGS = 'pg'; // PostgreSQL
+const PGS = 'pg';        // PostgreSQL
 const PGN = 'pgnative'; // PostgreSQL native libpq
 const MYS = 'MySQL';
-const ELK = 'elasticsearch';
-const RDS = 'REDIS';
+const ELK = 'es';     // elasticsearch
+const RDS = 'redis';
 
 
 class Pipe
@@ -68,23 +68,30 @@ class Pipe
         // TODO: Implement query method
         // TODO: determine how to handle logical operators and multiple requests
     }
+    
+    // CRUOUx implementation below; Create, Read, Update, Overwrite, Update mark for deletion.
 
-    public function find()
+    public function read() // find resource at id or at random
     {
         // TODO: Implement find method
     }
 
-    public function insert()
+    public function create() // insert payload
     {
         // TODO: Implement insert method
     }
 
-    public function update()
+    public function patch() // overwrite value for key at ID according to payload
     {
         // TODO: Implement update method
     }
 
-    public function delete()
+    public function put() // overwrite resource at ID using payload, the tricky part here is that all keys not in payload will be emptied.
+    {
+        // TODO: Implement update method
+    }
+
+    public function delete() // delete resource at ID
     {
         // TODO: Implement delete method
     }
