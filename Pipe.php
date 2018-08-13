@@ -2,6 +2,7 @@
 /**
  * Created by IntelliJ IDEA.
  * User: Chris Hansen (chris@iviking.org)
+ * User: Gjermund G Thorsen( !ghuser TyrfingMjolnir )
  * Date: 9/13/17
  * 
  * Copyright 2017 Chris Hansen
