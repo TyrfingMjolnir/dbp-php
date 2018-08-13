@@ -6,7 +6,7 @@
  * Time: 6:24 PM
  */
 
-namespace DB;
+namespace Request;
 
 
 abstract class Request
