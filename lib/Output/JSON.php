@@ -6,7 +6,7 @@
  * Time: PST 19:21
  */
 
-namespace JSON; // FileMaker DATA API-like query
+namespace JSON;
 
 
 class JSON extends Output
