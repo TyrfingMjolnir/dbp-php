@@ -6,7 +6,7 @@
  * Time: PST 19:21
  */
 
-namespace TOML; // FileMaker DATA API-like query
+namespace TOML;
 
 
 class TOML extends Output
