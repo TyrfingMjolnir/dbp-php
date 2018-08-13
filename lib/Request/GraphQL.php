@@ -1,9 +1,9 @@
 <?php
 /**
- * Created by IntelliJ IDEA.
- * User: Chris Hansen (chris@iviking.org)
- * Date: 9/16/17
- * Time: 8:50 PM
+ * Created in vim.
+ * User: Gjermund G Thorsen( !ghuser TyrfingMjolnir )
+ * Date: 8/12/18
+ * Time: PST 19:21
  */
 
 namespace GraphQL;
