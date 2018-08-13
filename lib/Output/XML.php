@@ -6,7 +6,7 @@
  * Time: PST 19:21
  */
 
-namespace XML; // FileMaker DATA API-like query
+namespace XML;
 
 
 class XML extends Output
