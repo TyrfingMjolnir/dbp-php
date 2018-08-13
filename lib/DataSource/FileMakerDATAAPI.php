@@ -9,7 +9,7 @@
 namespace DB;
 
 
-class FileMaker extends DataSource
+class FileMakerDATAAPI extends DataSource
 {
     public function execute()
     {
