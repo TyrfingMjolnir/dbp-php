@@ -9,7 +9,7 @@
 namespace FileMakerDDR;
 
 
-class FileMakerDDR extends Request
+class FileMakerDDR extends DataSource
 {
     public function execute()
     {
