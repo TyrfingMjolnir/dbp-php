@@ -6,8 +6,7 @@
  * Time: PST 19:21
  */
 
-namespace FileMakerDATAAPI; // FileMaker DATA API-like query
-
+namespace FileMakerDataAPI; // FileMaker DATA API-like query
 
 class FileMakerDATAAPI extends Request
 {
