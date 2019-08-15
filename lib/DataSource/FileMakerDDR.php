@@ -11,7 +11,6 @@
 
 namespace FileMakerDDR;
 
-
 class FileMakerDDR extends DataSource
 {
     public function execute()
