@@ -6,8 +6,7 @@
  * Time: PST 19:21
  */
 
-namespace PassThrough; // FileMaker DATA API-like query
-
+namespace DB; // FileMaker DATA API-like query
 
 class PassThrough extends Request
 {
