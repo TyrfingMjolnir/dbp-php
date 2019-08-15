@@ -8,7 +8,6 @@
 
 namespace TOML;
 
-
 class TOML extends Output
 {
     public function execute()
