@@ -7,6 +7,7 @@
  */
 
 namespace DB;
+
 class pg extends DataSource
 {
     public function execute()
