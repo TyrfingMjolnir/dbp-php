@@ -6,8 +6,7 @@
  * Time: PST 19:21
  */
 
-namespace FileMakerCWP; // FileMaker CWP-like query
-
+namespace DB;
 
 class FileMakerCWP extends Request
 {
