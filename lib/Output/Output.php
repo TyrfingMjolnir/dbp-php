@@ -6,8 +6,7 @@
  * Time: PST 19:21
  */
 
-namespace Output;
-
+namespace DB;
 
 abstract class Output
 {
