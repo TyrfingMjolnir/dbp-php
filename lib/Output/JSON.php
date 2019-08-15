@@ -6,7 +6,7 @@
  * Time: PST 19:21
  */
 
-namespace JSON;
+namespace DB;
 
 class JSON extends Output
 {
