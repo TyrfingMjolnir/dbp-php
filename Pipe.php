@@ -22,17 +22,6 @@
 
 namespace DB;
 
-const FMP = 'FileMakerPro';       // FileMaker FMPXMLRESULT
-const FDR = 'FMDDR';             // FileMaker Data Design Report
-const FMD = 'FMDATAAPI';        // FileMaker DATA API
-const FMC = 'FMCWP';           // FileMaker CWP
-const PGS = 'pg';             // PostgreSQL
-const PGN = 'pgnative';      // PostgreSQL native libpq
-const MYS = 'MySQL';        // 
-const ELK = 'es';          // elasticsearch
-const RDS = 'redis';      // 
-
-
 class Pipe
 {
     const VERSION = '0.0.1';
