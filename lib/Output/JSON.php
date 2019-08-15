@@ -8,7 +8,6 @@
 
 namespace JSON;
 
-
 class JSON extends Output
 {
     public function execute()
