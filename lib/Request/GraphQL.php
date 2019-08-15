@@ -6,8 +6,7 @@
  * Time: PST 19:21
  */
 
-namespace GraphQL;
-
+namespace DB;
 
 class GraphQL extends Request
 {
