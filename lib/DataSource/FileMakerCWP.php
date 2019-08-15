@@ -11,7 +11,6 @@
 
 namespace DB;
 
-
 class FileMakerCWP extends DataSource
 {
     public function execute()
