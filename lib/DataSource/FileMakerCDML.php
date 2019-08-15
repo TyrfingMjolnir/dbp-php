@@ -11,7 +11,6 @@
 
 namespace DB;
 
-
 class FileMakerCDML extends DataSource
 {
     public function execute()
