@@ -68,14 +68,19 @@ class Pipe
         // TODO: Implement temporary storage for timestamp and current token
     }
 
+    public function create() // insert payload
+    {
+        // TODO: Implement insert method
+    }
+
     public function read() // find resource at id or at random
     {
         // TODO: Implement find method
     }
-
-    public function create() // insert payload
+    
+    public function update()
     {
-        // TODO: Implement insert method
+        // TODO: This should just be an alias (with a more newby friednly name) of (most likely) patch
     }
 
     public function patch() // overwrite value for key at ID according to payload
