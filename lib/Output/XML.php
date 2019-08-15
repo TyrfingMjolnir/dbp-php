@@ -6,8 +6,7 @@
  * Time: PST 19:21
  */
 
-namespace XML;
-
+namespace DB;
 
 class XML extends Output
 {
