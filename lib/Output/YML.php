@@ -6,8 +6,7 @@
  * Time: PST 19:21
  */
 
-namespace YML;
-
+namespace DB;
 
 class YML extends Output
 {
