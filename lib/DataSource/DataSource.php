@@ -8,7 +8,6 @@
 
 namespace DB;
 
-
 abstract class DataSource
 {
     abstract public function execute();
